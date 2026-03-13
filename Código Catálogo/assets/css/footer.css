@@ -1,0 +1,50 @@
+/* RODAPE */
+
+.linha {
+    background-color: #bbbbbb;
+    margin: 3rem auto;
+    width: 100%;
+    max-width: 1000px;
+    height: 1px;
+}
+
+footer {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.footer-bottom {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.links h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.links li:hover {
+    text-decoration: underline;
+}
+
+.links a {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}

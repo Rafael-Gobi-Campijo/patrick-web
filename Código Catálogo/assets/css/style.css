@@ -1,0 +1,214 @@
+
+
+    /* SESSAO PATRICK */
+
+    .patrick {
+        max-width: 1000px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        flex-direction: column;
+        padding: 100px 0;
+    }
+
+    .patrick h1 {
+        font-size: 80px;
+        padding-bottom: 10px;
+        letter-spacing: -0.03em;
+        font-weight: 600;
+    }
+
+    .patrick h2 {
+        font-size: 52px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        margin-top: -25px;
+    }
+
+    .patrick h1,
+    .patrick h2 {
+        background: linear-gradient(90deg, #335dd1 0%, #1682e8 50%, #335dd1 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text {
+        color: rgb(139, 139, 139);
+        font-size: 19px;
+        font-weight: 300;
+    }
+
+    /* BANNER PRINCIPAL */
+
+    .banner-principal {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .banner-patrick {
+        max-width: 1000px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /* TEXTO INFORMATION */
+
+    .text-information {
+        margin: 0 auto;
+        max-width: 1000px;
+        width: 100%;
+        text-align: center;
+        padding: 100px;
+    }
+
+    .text-information h1 {
+        font-weight: 600;
+        padding: 0;
+        margin: 0;
+        font-size: 85px;
+    }
+
+    .text-information h2 {
+        font-weight: 500;
+        padding: 0;
+        margin: 0;
+        font-size: 75px;
+        margin-top: -18px;
+        color: #959595;
+    }
+
+    /* SESSAO PRODUTOS */
+
+    .celulares-category {
+        background-color: #f5f5f7;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    /* SESSAO EQUIPE */
+
+    .sobre-loja {
+        max-width: 1000px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    .sobre-container {
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+    .title-patrick {
+        padding: 15px;
+    }
+
+    .title-patrick h1 {
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .title-patrick h2 {
+        font-weight: 500;
+        font-size: 40px;
+        color: #2997FF;
+        padding-top: 25px;
+        line-height: 35px;
+    }
+
+    .title-patrick p {
+        padding-top: 35px;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .title-patrick span {
+        color: rgb(45, 160, 45);
+    }
+
+    .sobre-imagem {
+        flex: 1;
+    }
+
+    .sobre-imagem img {
+        max-width: 500px;
+        border-radius: 10px;
+    }
+
+    .sobre-imagem2 img {
+        max-width: 400px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /* SESSAO DIFERENCIAIS */
+
+    .diferenciais {
+        max-width: 1000px;
+        margin: 30px auto;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .icone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+    }
+
+    .img-icone {
+        width: 55px;
+        margin-bottom: 10px;
+    }
+
+    .text-dif {
+        font-size: 14px;
+        margin-top: 5px;
+        font-weight: 300;
+    }
+
+
+    @keyframes fadeUp {
+        from {
+            opacity: 0;
+            transform: translateY(40px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .patrick h1 {
+        animation: fadeUp 1s ease forwards;
+    }
+
+    .patrick h2 {
+        animation: fadeUp 1.2s ease forwards;
+    }
+
+    .text-principal {
+        animation: fadeUp 1.4s ease forwards;
+    }

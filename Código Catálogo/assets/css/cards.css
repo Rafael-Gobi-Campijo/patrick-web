@@ -1,0 +1,46 @@
+/* CARDS */
+
+.card{
+    background:#fff;
+    border-radius:20px;
+
+    padding:20px;
+
+    max-width:390px;
+    width:100%;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+
+    transition:0.2s;
+}
+
+.card:hover{
+    transform:translateY(-1px) scale(1.02);
+}
+
+.card a{
+    margin-top:15px;
+
+    padding:10px 20px;
+
+    background:#2997FF;
+    color:white;
+
+    border-radius:25px;
+    font-size:13px;
+}
+
+.img-box{
+    height:270px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.img-marca{
+    width:220px;
+}

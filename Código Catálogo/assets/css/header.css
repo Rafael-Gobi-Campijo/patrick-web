@@ -1,0 +1,63 @@
+/* CABECALHO */
+
+.header-container {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo-image {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* LINKS NAVEGACAO */
+
+a {
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links li {
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.nav-links li:hover {
+    opacity: 0.5;
+}
+
+.nav-links a {
+    color: rgb(109, 109, 109);
+    font-size: 14px;
+}
+
+.btn-comprar {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 3px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    gap: 6px;
+}
+
+.icon-sacola {
+    width: 25px;
+    height: auto;
+}

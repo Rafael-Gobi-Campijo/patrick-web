@@ -1,0 +1,109 @@
+/* RESPONSIVIDADE */
+/*CELULAR*/
+@media (max-width:767px) {
+
+    .header-container {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 5px;
+        padding: 15px 0;
+    }
+
+    .nav-links {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .celulares-category {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1 1 45%;
+        max-width: 48%;
+        height: 300px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .btn-comprar {
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+
+    .logo-image {
+        width: 80px;
+    }
+
+    .sobre-imagem img,
+    .sobre-imagem2 img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .text-information h1 {
+        font-size: 35px;
+    }
+
+    .text-information h2 {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .diferenciais {
+        border: none;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+    footer {
+        align-items: flex-start;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .sobre-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title-patrick h1 {
+        font-size: 26px;
+    }
+
+    .title-patrick h2 {
+        font-size: 30px;
+    }
+
+    .title-patrick p {
+        font-size: 18px;
+    }
+}
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .sobre-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title-patrick h1 {
+        font-size: 26px;
+    }
+
+    .title-patrick h2 {
+        font-size: 30px;
+    }
+
+    .title-patrick p {
+        font-size: 18px;
+    }
+}
